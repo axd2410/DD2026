@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col col-12">
+      <h1 class="font-66 mt-5 mb-5">{{destination.name}}</h1>
+  </div>   
+  <div class="col col-12">
+        <img class="img-fluid widescreen" src="{{destination.image}}" alt="{{destination.name}} image">
+  </div>
+  <div class="col col-12 font-24 mt-5 mb-5">
+    <p>{{destination.description}}</p>
+  </div>
+  <div class="row mb-5">
+    {{#each activities}}
+    <div class="col col-12 col-md-6 col-lg-4">
+      <div class="card mb-3">
+        <img class="card-img-top" src="{{image}}" alt="{{name}} image">
+        <div class="card-body">
+          <h3 class="card-title">{{name}}</h3>
+          <p class="card-text">{{description}}</p>
+          <p class="font-24"><strong>${{formatCurrency cost}}</strong></p>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
