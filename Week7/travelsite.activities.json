@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "69a9b6b855e079032a87b2e0"
+  },
+  "name": "ATV Tour",
+  "description": "4 hour tour around Miami",
+  "image": "/images/atv.jpg",
+  "cost": 69.99,
+  "destination": {
+    "$oid": "69a082e1bea21a198e90dde7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a9b8b95b4ba1a1c86f70ad"
+  },
+  "name": "Zoo",
+  "description": "One of the best in thw world",
+  "image": "/images/zoo.jpg",
+  "cost": 93.5,
+  "destination": {
+    "$oid": "69a082e1bea21a198e90dde7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a9b8dc5b4ba1a1c86f70af"
+  },
+  "name": "Skyline",
+  "description": "The most beautiful in florida",
+  "image": "/images/skyline.jpg",
+  "cost": 15.5,
+  "destination": {
+    "$oid": "69a082e1bea21a198e90dde7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c886cf6c030ad668b3dd56"
+  },
+  "name": "Empire State Tour",
+  "description": "NYC most iconic building",
+  "image": "/images/empirestate.jpg",
+  "cost": 25.99,
+  "destination": {
+    "$oid": "69a9a97b4c9334f60ae138c7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c887976c030ad668b3dd5e"
+  },
+  "name": "Helicopter City Tour",
+  "description": "Tour to the statue of liberty on a helicopter",
+  "image": "/images/helicopter.jpg",
+  "cost": 250,
+  "destination": {
+    "$oid": "69a9a97b4c9334f60ae138c7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c888076c030ad668b3dd66"
+  },
+  "name": "Central Park Visit",
+  "description": "Walk inside Ne York's most emblematic public park",
+  "image": "/images/centralpark.jpg",
+  "cost": 0,
+  "destination": {
+    "$oid": "69a9a97b4c9334f60ae138c7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c88c694cf4eba9f02e4a15"
+  },
+  "name": "Sumo",
+  "description": "Sumo traditional fight",
+  "image": "/images/sumo.jpg",
+  "cost": 105,
+  "destination": {
+    "$oid": "69c88b294cf4eba9f02e4a0d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c88c874cf4eba9f02e4a17"
+  },
+  "name": "Fish Market",
+  "description": "Tour on the world most important fish market",
+  "image": "/images/fishmarket.jpg",
+  "cost": 50,
+  "destination": {
+    "$oid": "69c88b294cf4eba9f02e4a0d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c88cac4cf4eba9f02e4a19"
+  },
+  "name": "Street go karting",
+  "description": "Go kart, in Mario karts iconic karts around tokyo",
+  "image": "/images/karts.jpg",
+  "cost": 200,
+  "destination": {
+    "$oid": "69c88b294cf4eba9f02e4a0d"
+  },
+  "__v": 0
+}]

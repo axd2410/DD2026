@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "69c2b77af0ae553baa68cbe5"
+  },
+  "url": "/images/homepage1.jpg",
+  "caption": "hello",
+  "gallery": {
+    "$oid": "69c2b714f0ae553baa68cbe3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c88d1f4cf4eba9f02e4a21"
+  },
+  "url": "/images/homepage2.jpg",
+  "caption": "Hello",
+  "gallery": {
+    "$oid": "69c2b714f0ae553baa68cbe3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c88d314cf4eba9f02e4a27"
+  },
+  "url": "/images/homepage3.jpg",
+  "caption": "Hello",
+  "gallery": {
+    "$oid": "69c2b714f0ae553baa68cbe3"
+  },
+  "__v": 0
+}]

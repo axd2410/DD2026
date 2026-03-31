@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "69a082e1bea21a198e90dde7"
+  },
+  "page": "Miami",
+  "name": "Miami",
+  "description": "Miami is a vibrant coastal city in \nSouth Florida known for its tropical climate, \nbeautiful beaches, and diverse culture. Visitors come \nfor the turquoise waters of Miami Beach, the colorful \nArt Deco architecture of South Beach, and the energetic \nnightlife and dining scene. Influenced by Latin American and \nCaribbean cultures, Miami offers a unique blend of languages, \nflavors, music, and art, making it one of the most dynamic and \ninternational destinations in the United States.",
+  "image": "/images/miami.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a9a97b4c9334f60ae138c7"
+  },
+  "page": "New York",
+  "name": "New York",
+  "description": "New York City is one of the world’s most iconic destinations, \nknown for its towering skyline, rich culture, and nonstop energy. \nFrom the bright lights of Times Square to the peaceful paths of \nCentral Park, the city offers endless attractions, world-class dining, \nhistoric landmarks, and vibrant neighborhoods. As a global center for art, \nfinance, fashion, and entertainment, New York delivers an unforgettable \nexperience filled with diversity, creativity, and excitement",
+  "image": "/images/newyork.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c88b294cf4eba9f02e4a0d"
+  },
+  "page": "Tokyo",
+  "name": "Tokyo",
+  "description": "Tokyo is a city that feels like stepping into tomorrow while staying deeply rooted in centuries-old tradition. As the capital of Japan, it blends ultra-modern innovation with serene cultural heritage, creating one of the most dynamic travel experiences in the world.",
+  "image": "/images/tokyo.jpg",
+  "__v": 0
+}]
