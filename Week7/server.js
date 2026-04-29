@@ -184,17 +184,16 @@ app.get("/destinations/:id", async (req, res) => {
 
 // update destination
 app.put("/api/destinations/:id", upload.single("image"), async (req, res) => {
-  console.clear();
   const { id } = req.params;
   const { page, name, description } = req.body;
   const image = req.file;
 
-  await Destination.findByIdAndUpdate(id, {
-    page,
-    name,
-    description,
-    image: image ? `/images/${image.filename}` : this.image,
-  });
+  const updateData = { page, name, description };
+  if (image) {
+    updateData.image = `/images/${image.filename}`;
+  }
+
+  await Destination.findByIdAndUpdate(id, updateData);
   res.send("Destination updated successfully");
 });
 
