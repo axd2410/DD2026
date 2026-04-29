@@ -50,6 +50,7 @@ export default function DestinationsPage() {
       <table className="table-auto w-full border-collapse border border-gray-400">
   <thead>
     <tr>
+      <th className="border border-gray-600 p-2">Image</th>
       <th className="border border-gray-600 p-2">Name</th>
       <th className="border border-gray-600 p-2">Description</th>
       <th className="border border-gray-600 p-2">Actions</th>
@@ -59,7 +60,7 @@ export default function DestinationsPage() {
     { destinations.map((destination) => (
       <tr key={destination._id}>
         <td className="border border-gray-600 p-2">
-        <img src={`http://localhost:3001/${destination.image}`} alt={destination.name} className="w-full h-full object-cover" />
+        <img src={`http://localhost:3001${destination.image}`} alt={destination.name} className="w-full h-full object-cover" />
         </td>
         <td className="border border-gray-600 p-2">{destination.name}</td>
         <td className="border border-gray-600 p-2">{destination.description}</td>
